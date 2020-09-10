@@ -1,0 +1,129 @@
+/*
+ Theme Name:   Divi Child [CMD]
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  Divi Child Theme by CMD
+ Author:       Command Media
+ Author URI:   http://commandmedia.net
+ Template:     Divi
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain:  divi-child
+*/
+
+/*Top menu css*/
+
+#top-header, #et-secondary-nav li ul {
+    background-color: #fff !important;
+}
+
+#et-secondary-na {
+    margin: 15px !important
+}
+
+/* #top-header a {
+    color: #454545 !important;
+} */
+
+#top-header a:hover {
+    opacity: 1;
+    color: #e51b24 !important;
+}
+
+#et-secondary-nav li {
+    font-size: 14px !important;
+    padding-right: 22px !important;
+}
+
+/* #et-secondary-menu .menu>li {
+    margin: 15px !important;
+} */
+
+/* below css rules written by anand@commandmedia.net for future refrence */
+
+.et_fixed_nav #top-header, #nrd #main-header {
+    position: absolute;
+}
+
+#top-header a {
+    color: #275C8D;
+}
+
+#top-header li {
+    font-size: 15px !important;
+}
+
+#top-header #et-secondary-nav {
+    padding-right: 0px
+}
+
+#et-secondary-menu .menu>li {
+    margin: 15px 15px 0px 15px !important;
+}
+
+#nrd .headerActions {
+    margin-top: 25px!important;
+}
+
+#top-menu li {
+    display: inline-block;
+    font-size: 17px;
+    padding-right: 15px;
+    margin-right: 15px;
+}
+
+#nrd #page-container {
+    padding-top: 80px !important;
+}
+
+.nav li li ul {
+    left: 200px!important;
+}
+
+#top-menu .sub-menu .sub-menu {
+    background-color: #ffffff!important;
+    padding: 20px!important;
+}
+
+#nrd span.et_close_search_field, #nrd .et-search-form input {
+    top: 25px !important;
+}
+
+@media only screen and (min-width: 981px) {
+    .et_header_style_left #et-top-navigation {
+        padding: 25px 0 0 0 !important;
+    }
+    .et_header_style_left #et-top-navigation nav>ul>li>a {
+        padding-bottom: 45px !important;
+    }
+    .et_header_style_left .logo_container {
+        top: -10px;
+    }
+    .d-lg-none {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1141px) {
+    .et_header_style_left .logo_container #logo {
+        max-height: 108%;
+    }
+    #nrd .headerActions {
+        margin-top: 15px!important;
+    }
+    /* #main-header .et_search_outer .et_close_search_field {
+        padding-top: 0px;
+    } */
+    #nrd .et_close_search_field, #nrd .et-search-form input {
+        top: 15px !important;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    #main-header {
+        background-color: white !important;
+    }
+    #nrd ul#menu-global-top-menu.slideOutMenu .menu-item>a {
+        color: white;
+    }
+}
